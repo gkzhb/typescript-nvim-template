@@ -18,6 +18,7 @@
   },
   "tstl": {
     "luaTarget": "JIT",
-    "luaBundleEntry": "./src/index"
+    "luaBundle": "init.lua",
+    "luaBundleEntry": "src/index.ts"
   }
 }
