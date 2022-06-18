@@ -1,0 +1,9 @@
+{
+  "name": "typescript-nvim-template",
+  "version": "0.0.1",
+  "description": "neovim plugin template using typescripttolua",
+  "main": "index.js",
+  "author": "gkzhb",
+  "license": "MIT",
+  "private": false
+}
