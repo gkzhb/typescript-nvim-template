@@ -4,6 +4,9 @@
     "target": "esnext",
     "lib": ["esnext"],
     "moduleResolution": "node",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "lua/typescript-nvim-template",
     "types": ["typescript-to-lua/language-extensions", "lua-types/jit"],
     "strict": true,
     "plugins": [
@@ -13,6 +16,7 @@
     ]
   },
   "tstl": {
-    "luaTarget": "JIT"
+    "luaTarget": "JIT",
+    "luaBundleEntry": "./src/index"
   }
 }
