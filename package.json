@@ -1,9 +1,14 @@
 {
   "name": "typescript-nvim-template",
   "version": "0.0.1",
-  "description": "neovim plugin template using typescripttolua",
+  "description": "neovim lua plugin template using TypeScriptToLua",
+  "keywords": ["neovim", "typescript", "lua", "template"],
   "main": "index.js",
-  "author": "gkzhb",
+  "author": "gkzhb <zhb896579388@163.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "repository": {
+    "url": "https://github.com/gkzhb/typescript-nvim-template",
+    "type": "git"
+  }
 }
