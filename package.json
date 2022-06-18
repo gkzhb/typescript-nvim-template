@@ -17,6 +17,7 @@
     "type": "git"
   },
   "devDependencies": {
+    "lua-types": "^2.11.0",
     "typescript-to-lua": "^1.6.0",
     "typescript-tstl-plugin": "^0.3.2"
   },
