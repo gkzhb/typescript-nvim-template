@@ -27,3 +27,15 @@ First change the project name and related path.
   * Update project name path in `main`, `types`
 1. In `tsconfig.json`:
   * Update project name path in `compilerOptions.outDir`
+
+This project favors `yarn` and use `yarn` to install dependencies, use
+`yarn build` to generate lua code. The output files will be in `./lua/<project name>/`.
+
+Finally, use `yarn dev` to build in realtime
+as source files change.
+
+## TODO
+
+* [ ] Examples to use GitHub CI to automatically build code on git push.
+* [ ] Provide Neovim API type declarations (how to automatically generate them?)
+as a npm package.
