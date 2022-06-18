@@ -20,4 +20,10 @@ other TSToLua projects.
 
 ## How to use this template
 
-TODO
+First change the project name and related path.
+
+1. In `package.json`:
+  * Update meta data `name`, `repository.url`, `author`, etc.
+  * Update project name path in `main`, `types`
+1. In `tsconfig.json`:
+  * Update project name path in `compilerOptions.outDir`

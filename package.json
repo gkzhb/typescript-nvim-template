@@ -8,7 +8,12 @@
     "lua",
     "template"
   ],
-  "main": "index.js",
+  "main": "./lua/typescript-nvim-template/index",
+  "types": "./lua/typescript-nvim-template/index",
+  "files": [
+    "dist/**/*.lua",
+    "dist/**/*.d.ts"
+  ],
   "author": "gkzhb <zhb896579388@163.com>",
   "license": "MIT",
   "private": false,
